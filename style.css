@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Teko:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #782C16;
+    color:#fff;
+}
+
+html {
+    color: #B65339;
+    font-family: roboto-slab, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 24px 180px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: teko, sans-serif;
+    font-size: 2rem;
+    font-size: 600;
+    color:#FF005D;  
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+
+    color:#c28322;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    background:#E9E1D7;
+    color: #000;
+}
+
+.confira {
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 250px;
+
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    max-width: 100px;
+}
+
+.products { 
+    padding: 0rem 10rem ;   
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: #834B4B;
+    color: #FFF;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    width: 200px;
+}
+
+.product-des-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card-avaliacao {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card-valor {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card-pay {
+    font-size: 1rem;
+    font-weight: 500;
+}
